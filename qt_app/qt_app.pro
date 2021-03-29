@@ -32,3 +32,9 @@ HEADERS += \
 
 FORMS += \
         mainwindow.ui
+
+binary.path = /opt
+
+binary.files = qt_app
+
+INSTALLS += binary
