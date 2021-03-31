@@ -35,6 +35,6 @@ FORMS += \
 
 binary.path = /opt
 
-binary.files = qt_app
+binary.files = ../../build/qt_app
 
 INSTALLS += binary
