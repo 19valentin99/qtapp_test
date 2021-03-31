@@ -9,6 +9,7 @@ QT       += core gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = qt_app
+
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -32,9 +33,3 @@ HEADERS += \
 
 FORMS += \
         mainwindow.ui
-
-binary.path = /opt
-
-binary.files = ../../build/qt_app
-
-INSTALLS += binary
